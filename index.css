@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    
+}
+header{
+    background-color: rgb(67, 101, 101);
+    height: 50px;
+    padding-top: 20px;
+}
+header h1{
+    color: rgb(226, 226, 239);
+    text-align: center;
+    text-shadow: 2px 2px 6px;
+}
+.row{
+    background-color: rgb(237, 220, 232);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.col{
+    background-color: rgb(224, 195, 174);
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 2px double black;
+    margin-top: 50px;
+    align-content: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 10px ridge rgb(230, 212, 212);
+    margin-left: 45px;
+    /* background-origin: padding-box; */
+
+}
+h2{
+    color: rgb(125, 86, 134);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h4{
+    color: rgb(50, 49, 48);
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+}
+#btn{
+    background-color: orangered;
+    color: blue;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+footer{
+    background-color: rgb(67, 101, 101);
+    height: 100px;
+    padding-top: 20px;
+}
+h3{
+    color: rgb(255, 251, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;font-size: larger;
+    text-align: center;
+}
+p{
+    color: blue;
+    margin-left: 20px;
+}
+.banner{
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.OPKFurMUL6TEWIiAURFN1QHaJV?w=952&h=1200&rs=1&pid=ImgDetMain);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+@media screen  and (max-width:600px){
+    footer{
+        background-color: rgb(0, 1, 1);
+        height: 100px;
+        padding-top: 20px;
+
+}
+}
+
+
